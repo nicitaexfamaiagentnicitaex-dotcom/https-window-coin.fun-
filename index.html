@@ -226,7 +226,8 @@ ul li::before{content:"💠 ";}
   border-radius:20px;
   padding:clamp(22px,6vw,38px);
   box-shadow:0 0 20px #00fff7 inset,0 0 30px #ff00ff33;
-  margin-top:40px;
+  width:min(100%, 1100px);
+  margin:clamp(32px,6vw,52px) auto 0;
   transition:transform .3s;
 }
 .glow-card:hover{transform:scale(1.03) rotate(1deg)}
@@ -269,6 +270,7 @@ ul li::before{content:"💠 ";}
   color:#000;
   text-shadow:none;
   cursor:pointer;
+  font-family:'Press Start 2P',cursive;
   font-size:clamp(.78rem,2.5vw,.95rem);
   box-shadow:0 0 20px #00fff7;
   transition:transform .15s;
@@ -332,7 +334,7 @@ ul li::before{content:"💠 ";}
 
 <header>
   <h1 class="glitch-title">$WINDOW</h1>
-  <div class="subtitle">LET THE BRAINROT FLOW THROUGH YOU</div>
+  <div class="subtitle">CLICK. BELIEVE. PROFIT.</div>
   <div class="logo-container">
     <div class="logo" id="logoWindow">
       <!-- Window image: @window.png -->
@@ -340,7 +342,7 @@ ul li::before{content:"💠 ";}
       <div class="logo-glow" id="logoGlow"></div>
     </div>
   </div>
-  <button class="btn btn-window" id="openWindowBtn">OPEN WINDOW 🪟</button>
+  <button class="btn btn-window" id="openWindowBtn">OPEN WINDOW</button>
   <div class="cta-wrap">
   <div class="token-address" id="tokenAddress" role="button" tabindex="0" aria-label="Copy token address">
   <span class="tag">CA:</span>
